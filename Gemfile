@@ -24,6 +24,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Front-end
+gem 'bootstrap-sass'
+
 # Meta tags 
 gem 'metamagic'
 
