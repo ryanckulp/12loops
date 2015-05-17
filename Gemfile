@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'masonry-rails'
 # Front-end
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 # Meta tags 
 gem 'metamagic'
