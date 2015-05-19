@@ -3,8 +3,10 @@
 <head>
   <title>12 Loops</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="assets/application"></script>
   <%= stylesheet_link_tag "application", media: "all" %>
   <%= csrf_meta_tags %>
+  
 </head>
 <body>
 <%= render 'shared/header' %>
@@ -13,4 +15,7 @@
 <%= yield %>
 
 </body>
+<footer>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</footer>
 </html>
