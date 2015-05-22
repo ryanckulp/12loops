@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>12 Loops</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="assets/application"></script>
-  <%= stylesheet_link_tag "application", media: "all" %>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <%= csrf_meta_tags %>
-  
+<%=
+metamagic site: "12 Loops", title: [:site, :title], separator: " | "
+%>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/application"></script>
+	<%= stylesheet_link_tag "application", media: "all" %>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<%= csrf_meta_tags %>
 </head>
 <body>
 <%= render 'shared/header' %>
