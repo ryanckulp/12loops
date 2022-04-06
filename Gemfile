@@ -12,7 +12,7 @@ gem 'masonry-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
-# Meta tags 
+# Meta tags
 gem 'metamagic'
 
 group :doc do
@@ -25,6 +25,6 @@ group :development, :test do # <<<< :development, not devlopment
 end
 
 group :production do
-  gem 'pg', '0.17.1'
+  gem 'pg', '0.20.0'
   gem 'rails_12factor'
 end
